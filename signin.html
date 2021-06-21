@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="index">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Alex Ramos & Brendan Tran">
+    <meta name="description" content="University Search">
+    <title>Find A School</title>
+    <link rel="icon" type="image/png" href="img/graduation.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h1><a href="landing.html" class="title">
+                <img class="logo" src="img/graduation.png" alt="graduation_cap">University
+                Search
+            </a></h1>
+        <ul class="nav-ul" id="nav-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="searchpage.html">Find A School</a></li>
+            <li>Create Profile/Sign In</li>
+        </ul>
+        <button id="hamburger-menu"><i class="fa fa-bars" aria-label="menu"></i></button>
+    </nav>
+    <main>
+        <div class="signin_main_container">
+            <div class="learn_container">
+                <h2>First off, let's get to know you.</h2>
+                <div class="initialButton">
+                    <div class="createOrSignIn">
+                        <button class="createProfile">Create Profile</button aria-label="button">
+                        <span class="or">|</span>
+                        <button class="signIn">Sign In</button aria-label="button">
+                    </div>
+                </div>
+
+                <form>
+                    <div class="bubble">
+                        <input type="text" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="bubble">
+                        <input type="text" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="bubble">
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="bubble">
+                        <input type="password" id="passwordInput" placeholder="Create Password">
+                    </div>
+                    <div class="bubble">
+                        <input type="password" id="passwordConfirmInput" placeholder="Confirm Password">
+                    </div>
+                    <div class="bubble">
+                        <input type="text" id="satScore" placeholder="SAT Score">
+                    </div>
+                    <div class="bubble">
+                        <input type="text" id="actScore" placeholder="ACT Score">
+                    </div>
+                    <div class="bubble">
+                        <input type="text" id="gpa" placeholder="Unweighted GPA">
+                    </div>
+
+                    <button class="submit">Submit</button aria-label="button">
+                    <span class="forgotPassword" hidden="true">Forgot your password?</span>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2020 Alex Ramos & Brendan Tran</p>
+            <a href="landing.html">
+                <p>Return to Landing</p>
+            </a>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/d3@6.2.0/dist/d3.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

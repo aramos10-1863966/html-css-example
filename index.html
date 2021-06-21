@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="index">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Alex Ramos & Brendan Tran">
+    <meta name="description" content="University Search">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="img/graduation.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <h1><a href="landing.html" class="title"><img class="logo" src="img/graduation.png"
+                    alt="graduation_cap"></a>University Search</h1>
+        <ul class="nav-ul" id="nav-ul">
+            <li>Home</li>
+            <li><a href="searchpage.html">Find A School</a></li>
+            <li><a href="signin.html">Create Profile/Sign In</a></li>
+        </ul>
+        <button id="hamburger-menu"><i class="fa fa-bars" aria-label="menu"></i></button>
+        <p class="intro">We're here to show you how to get into the best universities and colleges for you!</p>
+    </nav>
+    <main>
+
+        <div class="main_container">
+
+            <div class="feature_container">
+                <div class="feature">
+                    <img src="img/college.png" alt="college">
+                    <p class="caption">Prepare for college.</p>
+                </div>
+                <div class="feature">
+                    <img src="img/search.png" alt="search">
+                    <p class="caption">Find the right school.</p>
+                </div>
+                <div class="feature">
+                    <img src="img/loan.png" alt="loan">
+                    <p class="caption">Find out how to get loans.</p>
+                </div>
+                <div class="feature">
+                    <img src="img/checklist.png" alt="checklist">
+                    <p class="caption">Keep track of your progress.</p>
+                </div>
+            </div>
+
+            <div class="learn_container">
+                <h2>First off, let's get to know you.</h2>
+                <div class="initialButton">
+                    <div class="createOrSignIn">
+                        <button class="createProfile">Create Profile</button aria-label="button">
+                        <span class="or">|</span>
+                        <button class="signIn">Sign In</button aria-label="button">
+                    </div>
+                </div>
+
+                <form>
+                    <div class="bubble">
+                        <input type="text" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="bubble">
+                        <input type="text" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="bubble">
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="bubble">
+                        <input type="password" id="passwordInput" placeholder="Create Password">
+                    </div>
+                    <div class="bubble">
+                        <input type="password" id="passwordConfirmInput" placeholder="Confirm Password">
+                    </div>
+                    <div class="bubble">
+                        <input type="text" id="satScore" placeholder="SAT Score">
+                    </div>
+                    <div class="bubble">
+                        <input type="text" id="actScore" placeholder="ACT Score">
+                    </div>
+                    <div class="bubble">
+                        <input type="text" id="gpa" placeholder="Unweighted GPA">
+                    </div>
+
+                    <button class="submit">Submit</button aria-label="button">
+                    <span class="forgotPassword" hidden="true">Forgot your password?</span>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2020 Alex Ramos & Brendan Tran</p>
+        <a href="landing.html">
+            <p>Return to Landing</p>
+        </a>
+    </footer>
+
+
+    <!-- include JavaScript file -->
+    <script src="https://unpkg.com/d3@6.2.0/dist/d3.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
